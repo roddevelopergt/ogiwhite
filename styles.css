@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: #FFFFFF;
     font-family: Helvetica Neue,Arial,sans-serif; 
@@ -11,7 +15,7 @@ body {
 
 h1 {
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 6rem;
+    font-size: 5rem;
     text-shadow: 0 1.5px black;
     color: #FFFFFF;
     font-weight: 900;
@@ -20,11 +24,11 @@ h1 {
 
 h3 {
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-shadow: 0 0.3px black;
     color: #FFFFFF;
     font-weight: 900;
-    padding: 0 200px;
+    padding: 0 50px;
 }
 
 /* HEADER */
@@ -72,6 +76,24 @@ header {
     padding-bottom: 50px;
 }
 
+.btn-lg  {
+    margin-top: 40px;
+    background-color: #95D600;
+    color: #FFFFFF;
+    -webkit-border-radius: 40px;
+       -moz-border-radius: 40px;
+            border-radius: 40px;
+}
+
+.btn-sm {
+    margin-top: 5px;
+    background-color: #95D600;
+    color: #FFFFFF;
+    -webkit-border-radius: 40px;
+       -moz-border-radius: 40px;
+            border-radius: 40px;
+}
+
 .btn-xlarge {
     padding: 18px 28px;
     font-size: 22px; 
@@ -81,19 +103,66 @@ header {
             border-radius: 40px;
 }
 
+.btn-abajo {
+    margin-bottom: 0px;
+}
+
 /* CONTACT FORM */
 
 .contact-form {
     background: rgba(0, 0, 0, 0.6);
     color: #FFFFFF;
-    margin-top: 50px;
-    padding: 50px 400px;
+    margin-top: 0px;
+    padding: 50px 200px;
     box-shadow: 0px 0px 10px 3px #FFFFFF;
     text-align: center;
 }
 
+.contact-form1 {
+    padding: 150px 7%;
+    text-align: center;
+
+}
+
 hr {
     background: #FFFFFF;
+    margin: 0px;
+}
+
+.label {
+    font-size: 1.5em;
+    color: #FFFFFF;
+    text-shadow: 0 0.3px black;
+    padding: 10px;  
+}
+
+/* FAQS */
+
+.list {
+    text-align: left;
+    padding-top: 50px;
+}
+
+.sub-titulo-faq {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.p-faq {
+    font-size: large;
+}
+
+.faqs {
+    text-align: justify;
+    margin: 7% 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    font-size: x-large;
 }
 
 /********************************************************* RESPONSIVE ******************************************************************/
@@ -115,8 +184,10 @@ hr {
     }
 
     .contact-form {
-        padding: 50px 200px;
+        padding: 50px 7%;
     }
+
+  
 
 }
 
@@ -146,12 +217,28 @@ hr {
 }
 
     .contact-form {
-    padding: 50px 100px;
+    padding: 50px 7%;
 }
 
     .footer-col {
         padding: 1% 100px !important;
     }
+
+    .contact-form1 {
+        padding: 50px 15%;
+    }
+
+    .label {
+    font-size: 1.2em;
+}
+
+li {
+    font-size: large;
+}
+
+h3 {
+    padding: 0px;
+}
 
 }
 
@@ -172,23 +259,43 @@ hr {
 
     h3 {
         font-size: 1.5rem;
-        padding: 0 50px;
+        padding: 25px 25px;
     }
     .contact-form {
         padding: 50px 50px;
     }
 
+    .contact-form1 {
+        padding: 25px 10%;
+    }
+
     .btn-xlarge {
         padding: 10px 15px;
         font-size: 15px; 
+    }
+        .btn-lg {
+            padding: 10px 15px;
+            font-size: 15px; 
+    
+    }
+
+.list {
+    padding-top: 0px;
+}
 
 }
 
 .footer-col {
-    padding: 1% 50px !important;
+    padding: 1% 50px;
 }
 
+@media (max-width: 480px) {
+
+    .footer-col {
+        padding: 1% 3% !important;
+    }
 }
+
 /************************************************************* FOOTER SECTION ********************************************************/
 
 .footer-div {
@@ -196,7 +303,7 @@ hr {
 }
 
 .footer-col {
-    padding: 1% 10% 1% 10%;
+    padding: 1% 150px;
     text-align: center;
 }
 
