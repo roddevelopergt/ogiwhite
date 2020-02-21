@@ -266,6 +266,10 @@ a:visited {
         font-size: 2rem;
     }
 
+    .btn-sticky {
+        left: 90%;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -389,6 +393,9 @@ h3 {
     padding-top: 0px;
 }
 
+.btn-sticky {
+    left: 85%;
+}
 
 }
 
