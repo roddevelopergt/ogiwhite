@@ -153,7 +153,8 @@ header {
 
 .contact-form1 {
     padding: 150px 7%;
-    text-align: center;
+    text-align: left;
+    
 
 }
 
@@ -167,6 +168,14 @@ hr {
     color: #FFFFFF;
     text-shadow: 0 0.3px black;
     padding: 10px;  
+}
+
+.form-back {
+    background: #00556F;
+    padding: 50px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
 }
 
 /* FAQS */
