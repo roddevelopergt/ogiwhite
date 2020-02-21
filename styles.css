@@ -63,7 +63,7 @@ header {
 
 .titulo {
     text-align: center;
-    padding-top: 150px;
+    padding-top: 130px;
     
 }
 
@@ -101,7 +101,7 @@ header {
 }
 
 .btn-lg  {
-    margin-top: 40px;
+    margin-top: 30px;
     background-color: #95D600;
     color: #FFFFFF;
     -webkit-border-radius: 40px;
@@ -164,18 +164,26 @@ hr {
 }
 
 .label {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #FFFFFF;
     text-shadow: 0 0.3px black;
-    padding: 10px;  
+    padding: 0px;  
+    margin: 0px;
 }
 
 .form-back {
     background: #00556F;
-    padding: 50px;
+    padding: 40px;
     -webkit-box-shadow: 0 8px 6px -6px black;
 	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+            -webkit-border-radius: 40px;
+       -moz-border-radius: 40px;
+            border-radius: 40px;
+}
+
+.form-group {
+    margin: 0px;
 }
 
 /* FAQS */
@@ -186,6 +194,9 @@ hr {
     margin: 0 250px;
     background-color: #a5a3a3;
     box-shadow: 5px 5px 5px grey;
+    -webkit-border-radius: 40px;
+       -moz-border-radius: 40px;
+            border-radius: 40px;
 }
 
 .sub-titulo-faq {
