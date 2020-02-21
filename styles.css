@@ -109,7 +109,17 @@ header {
             border-radius: 40px;
 }
 
+.btn-sticky {
+    position: fixed;
+  top: 85%;
+  left: 95%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .btn-sm {
+    
     margin-top: 5px;
     background-color: #95D600;
     color: #FFFFFF;
@@ -177,7 +187,7 @@ hr {
 .p-faq {
     font-size: 1.3em;
     margin: 0px;
-    text-align: left;
+    text-align: justify;
 
 }
 
@@ -358,7 +368,7 @@ h3 {
         padding: 25px 25px;
     }
     .contact-form {
-        padding: 50px 50px;
+        padding: 25px 25px;
     }
 
     .contact-form1 {
@@ -375,23 +385,14 @@ h3 {
     
     }
 
-.list {
+    .list {
     padding-top: 0px;
 }
 
+
 }
 
-.footer-col {
-    padding: 1% 50px;
-}
 
-.p-faq {
-    font-size: 1.2em;
-}
-
-.btn-cta {
-    padding: 25px 0;
-}
 
 
 @media screen and (max-width: 380px) {
