@@ -323,7 +323,7 @@ h3 {
 }
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
-    .top-part{
+    .top-part {
         background: url(Images/mobile-test.png) no-repeat center center fixed;
     }
 	
